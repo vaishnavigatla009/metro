@@ -28,9 +28,9 @@ st.info(f"total Amount: {total_amount}")
 if st.button("book ticket"):
     if name.strip() =="":
         st.error("please enter passenger name")
-        elif source ==destination:
+    elif source ==destination:
             st.error("source and destination cannot be the same")
-        else:
+    else:
             booking_id=str(uuid.uuid4())[1.8]
 
 
