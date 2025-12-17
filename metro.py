@@ -20,7 +20,7 @@ name=st.text_input("passenger name")
 source=st.selectbox("Destination station",stations)
 no_tickets=st.number_input("number od tickets",min_value=1,value=1)
 price_per_ticket=30
-total_amount= no tickets *price_per_ticket
+total_amount= no_tickets *price_per_ticket
 st.info(f"total Amount: {total_amount}")
 
 
