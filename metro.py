@@ -31,7 +31,7 @@ if st.button("book ticket"):
     elif source ==destination:
             st.error("source and destination cannot be the same")
     else:
-            booking_id=str(uuid.uuid4())[1.8]
+            booking_id=str(uuid.uuid4())[:8]
 
 
             #qr code generator
