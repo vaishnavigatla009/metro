@@ -3,7 +3,7 @@ import qrcode
 from io import BytesIO
 import uuid
 from PIL import Image
-from gtts import gtts
+from gtts import gTTS
 import base64
 
 
