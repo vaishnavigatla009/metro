@@ -46,12 +46,12 @@ if st.button("book ticket"):
 
             st.success("ticket booked succesfully!")
             st.write(" ticket details")
-          st.write(f"booking ID: {booking_id}")
-          st.write(f"Passenger:{name}")
-          st.write(f"**From:** {source}")
-          st.write(f"**To:** {destination}")
+            st.write(f"booking ID: {booking_id}")
+            st.write(f"Passenger:{name}")
+            st.write(f"**From:** {source}")
+            st.write(f"**To:** {destination}")
             st.write(f"**Tickets:** {no_tickets}")
-          st.write(f"**amount paid:** {total_amount}")
-          st.image(qr_bytes, width=250)
+            st.write(f"**amount paid:** {total_amount}")
+            st.image(qr_bytes, width=250)
             
             
