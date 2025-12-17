@@ -19,7 +19,7 @@ stations=("amrpt","miyapur","lbnagar","balnagar")
 name=st.text_input("passenger name")
 source=st.selectbox("Destination station",stations)
 no_tickets=st.number_input("number od tickets",min_value=1,value=1)
-price per ticket=30
+price_per_ticket=30
 total_amount= no tickets *price_per_ticket
 st.info(f"total Amount: {total_amount}")
 
@@ -47,13 +47,13 @@ if st.button("book ticket"):
             st.success("ticket booked succesfully!")
             st.write("### ticket details")
             st.success("ticket booked successfully")
-        s   st.write("##ticket details")
-        s   st.write(f"**booking ID:** {booking_id}")
-        s   st.write(f"**Passenger:** {name}")
-        s   st.write(f"**From:** {source}")
-        s   st.write(f"**To:** {destination}")
-    r.wri   st.write(f"**Tickets:** {no_tickets}")
-        s   st.write(f"**amount paid:** {total_amount}")
-        s   st.image(qr_bytes, width=250)
+           st.write("##ticket details")
+          st.write(f"**booking ID:** {booking_id}")
+          st.write(f"**Passenger:** {name}")
+          st.write(f"**From:** {source}")
+          st.write(f"**To:** {destination}")
+            st.write(f"**Tickets:** {no_tickets}")
+          st.write(f"**amount paid:** {total_amount}")
+          st.image(qr_bytes, width=250)
             
             
