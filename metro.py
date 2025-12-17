@@ -2,7 +2,7 @@ import streamlit as st
 import qrcode
 from io import BytesIO
 import uuid
-from pil import image
+from PIL import image
 from gtts import gtts
 import base64
 
